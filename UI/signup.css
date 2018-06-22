@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* for the whole project*/
+*{
+    margin: auto;
+    padding-top: auto; 
+}
+.transparent{
+  text-align: center;
+   background-color: #292828cc;
+   padding: 20px;
+   height: 100%;
+   margin:70px;
+ 
+}
+/* for the body*/
+.body{
+    background-image: url('comp4.jpg');
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Roboto", Helvetica, sans-serif;
+    background-color: #292828cc;
+    /* if you don't want your side nav to show */
+    overflow-x: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 3%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+/*End of body styles */
+
+/* Navigation bar styles */
+nav{
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background-color:#7707df;
+}
+/* for the 'logo'*/
+nav p{
+  font-family: Arial;
+  color:#fff;
+  font-size: 24px;
+  line-height: 55px;
+  float:left;
+  padding: 0 20px;
+  text-decoration: none;
+
+}
+/*Style the links inside the navigation bar */
+ a {
+  float: left;
+  color: blueviolet;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 24px;
+}
+a.textalign_right{
+  float: left;
+  color:#7707df;
+  margin-left: 45%;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+/* Change the color of links on hover */
+ a:hover {
+  background-color: #ddd;
+  color: black;
+  height: inherit;
+}
+
+/* Add a color to the active/current link */
+ a.active {
+    /*background-color: #4CAF50;*/
+    font-style: arial;
+    color: black;
+  }
+  a.active {
+  /*background-color: #4CAF50;*/
+  font-style: arial;
+  color: black;
+}
+/*Styles for  the links on the right*/
+nav ul{
+  float: right;
+}
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a{
+  display: block;
+  font-family: Arial;
+  color:black;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+
+nav ul li ul li {
+ width: 150px;
+ border-radius: 4px;
+}
+
+nav ul li ul li a{
+ padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+  color: #222;
+  background-color: #f3f3f3;
+}
+#textalign_left {
+  text-align: left;
+}
+/* End of navigation styles */
+
+/*first div of the  index page*/
+.labels{
+  margin-right: 60px;
+  color: white;
+  
+ }
+.firstdiv {
+    text-align: center;
+}
+/* the first heading of the index page*/
+.firsthead{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    margin-top: -60px;
+    margin-bottom: -20px;
+ 
+}
+.signupheading {
+    margin-bottom:30px;
+    font-size: 20px;
+    color: white;
+
+}
+/*Sign up form*/
+#form1 {
+  
+    text-align: center;
+    /*margin-left: 40px;
+    margin-top:  60px;
+    margin-bottom: 100px*/
+}
+/*Class for input for sign up*/
+.margin-setiing{
+    margin-bottom: 10px;
+}
+/* sytles for all input*/
+input[type=text]{
+    width:25%;
+    padding: 10px;
+
+}
+input[type=password]{
+    width:25%;
+    padding: 10px;
+}
+
+/*sty;es for the sigmup heading. yhough they dont work haha*/
+/*#signupheading {
+    margin-bottom:40px;
+    font-size: 20px;
+}*/
+/* Styles for the submit button*/
+.button{
+    text-align: center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+/* Styles for the Login form*/
+ h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+
+  .login {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .login-header {
+    color:#000;
+    text-align:center;
+    font-size:300%;
+  }
+  /*.login-form {
+    border:.5px solid #000;
+    
+    box-shadow:0px 0px 10px #000;
+  }*/
+  
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#000;
+  }
+  .login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+    background:#e1e3e4;
+    border-radius:10px;
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #020101;
+    outline:none;
+    padding-left:10px;
+  }
+  .login-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#070303;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  /*End of login for now*/
+  
+  /*Media Querie*/
+  @media only screen and (min-width : 150px) and (max-width : 530px){
+    .login-form h3 {
+      text-align:center;
+      margin:0;
+    }
+    .login-button {
+      margin-bottom:10px;
+      background-color: #7707df;
+    }
+  }
+  .request_table{
+    width: 100%;
+    border: 1;
+    align-content: center;
+  }
+
+
+  #table_div{
+   order:.5px solid #000;
+   background: white;
+   border-radius:10px;
+   box-shadow:0px 0px 10px #000;
+   box-sizing:border-box;
+   padding-top:0 7777px;
+   padding-bottom:10%;
+   margin:0% auto;
+   text-align:center;
+   top: 90px; 
+   position: relative;
+ 
+  }
+ 
+  .table1{
+   /*border="1" frame =void rules=rows class="request_table" align='center'*/
+   border: 1px;
+   align-content: center;
+ 
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#7707df;
+    color: white;
+    text-align: center;
+    float: center;
+ }
+ 
+ /** Register Link Div **/
+
+ #register {
+   text-align: center;
+ }
+
+ /** CSS for the form input labels **/
+
+ .form_label {
+  position: relative;
+  margin: left;
+  float: left;
+  margin-left: -60px;
+  top: 34px;
+ }
+
+ .form-input span {
+   position: relative;
+   float: left;
+ }
+
+ 
+
+ #lastname {
+  margin-left: 4px;
+ }
+
+ #username {
+  margin-left: 8px;
+ }
+
+ #email {
+  margin-left: 39px;
+ }
+
+ #password {
+  margin-left: 17px;
+ }
+
+ #password2 {
+  margin-left: -43px;
+ }
+

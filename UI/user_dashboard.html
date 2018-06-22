@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <title>Maintenance App Tracker</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
+    <body class="body"> 
+        <header>
+            <!--Beginning of Navigation Bar-->
+            <nav>
+                <p> <strong><a href="../index.html" class="active">MaintenanceTracker</a></p></strong>
+                <ul>
+                    <li><a href="#" >About</a></li>
+                    <li><a href="../index.html">Logout</a></li>
+                    <li><a href ="admin_dashboard.html">Admin Dashboard</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!--End of Navigation Bar!!-->
+
+    <div class="container">
+            <h1><br>Welcome User</h1> <hr>
+        </div>
+    </div>
+    
+    <!--Request List-->
+    <button class="button" id="makeRequestBtn" style="vertical-align:left"><a href="create_request.html"<span>Make a Request </span></a></button><br><br><br>
+    
+        <h3 id="requestHeading">Requests made:</h3>
+        Filter By:<select id="request_filter">
+                <option >Type:</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="Repair">Repair</option>
+                </select>
+                <select id="request_filter">
+                <option>Status:</option>
+                <option value="New">New</option>
+                <option value="Pending">Pending</option>
+                <option value="Approved">Approved</option>
+                <option value="Rejected">Rejected</option>
+                </select>
+    
+    <div  id="table_div"class="container">
+    
+      
+        <table class="table1">
+                <tr><td>The Laptop screen is cracked and the the Esc button doesnot work at all.<h2 class = "table_buttons" id="repair">repair</h2><h2 class="table_buttons" id ="new">New</h2></td></tr>
+
+                <tr><td><hr> <br>Need to switch from Windows operating software to iOS on my Lenovo notepad.<h2 class = "table_buttons" id="maintenance">maintenance</h2><h2 class="table_buttons" id="reject">Rejected</h2></td></tr>
+                <tr><td><hr> <br>Update from Windows 8 to Windows 10. <h2 class = "table_buttons" id="maintenance">maintenance</h2><h2  class= "table_buttons"id="approve">Approved</h2></td></tr>
+                     <tr><td><hr> <br>My Samsung S4 keeps saying 'no memory' yet it is practically empty.<h2 class = "table_buttons" id="maintenance">maintenance</h2><h2 class="table_buttons" id="pending">Pending</h2></td></tr>
+                    <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
+                    <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
+                </table>
+    <!--End of Request list-->
+     </div>
+    
+    <!--Footer-->
+    <footer class="footer">&copy;Maintainance App</footer>
+    <!--Footer-->
+ 
+
+    
+  </body>
+       
+</html>
