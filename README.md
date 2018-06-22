@@ -1,9 +1,9 @@
 ## Project Link
-(https://rachaelnantale.github.io/Maintenance/index.html)
+(https://rachaelnantale.github.io/Andela-women-initiative/)
 
 
 ## Project link
-https://rachaelnantale.github.io/Maintenance/index.html
+https://rachaelnantale.github.io/Andela-women-initiative/
 
 Maintenance App Tracker
 ======================
