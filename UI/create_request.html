@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Maintenance Tracker</title>
+</head>
+
+<body class="body">
+    <header>
+        <!--Beginning of Navigation Bar-->
+        <nav>
+            <p>
+                <strong>
+                    <a href="../index.html" class="active">MaintenanceTracker</a>
+            </p>
+            </strong>
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="../index.html">Logout</a>
+                </li>
+                <li>
+                    <a href="admin_dashboard.html">Admin Dashboard</a>
+                </li>
+                <li>
+                    <a href="user_dashboard.html">User Dashboard</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--End of Navigation Bar!!-->
+    <div class="transparent">
+        <div class="signupheading" id="createRequest">Create A Request:</div>
+        <div>
+            <form id="form1">
+                <fieldset>
+                    <div>
+                        <span id="user-span">Username:</span>
+                        <input type="text" id="username" name="username" placeholder="Username" class="margin-setiing" required>
+                    </div>
+
+                    <div>
+                        <span id="form1-span">Request type:</span>
+                        <select>
+                            <option>Type:</option>
+                            <option value="Maintenance">Maintenance</option>
+                            <option value="Repair">Repair</option>
+
+                        </select>
+                    </div>
+
+                    <div>
+                        <label id="request-span">Request:</label>
+                        <textarea rows="9" cols="70" name="request" required/> Please fill in your Request</textarea>
+                        <br>
+                        <br>
+                    </div>
+
+                    <!--<button class="button" style="vertical-align:middle"><span>Submit </span></button>-->
+                    <form>
+                        <button class="login-button" value="Submit" formaction="user_dashboard.html">
+                            <span>Submit</span>
+                        </button>
+                    </form>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">&copy; Maintainance App</footer>
+    <!--Footer-->
+
+</body>
+
+</html>
