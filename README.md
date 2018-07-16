@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/RachaelNantale/Andela-women-initiative.svg?branch=tests)](https://travis-ci.org/RachaelNantale/Andela-women-initiative)
+[![Coverage Status](https://coveralls.io/repos/github/RachaelNantale/Andela-women-initiative/badge.svg?branch=tests)](https://coveralls.io/github/RachaelNantale/Andela-women-initiative)
+
 ## Project Link
 (https://rachaelnantale.github.io/Andela-women-initiative/)
 
